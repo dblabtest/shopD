@@ -1,0 +1,9 @@
+<div *ngIf="post" >
+    <h2>Post Detail</h2>
+    <div class='detail'>
+        <p><strong>{{post.title}}</strong></p>
+        <p>{{post.body}}</p>
+
+        <button (click)="goBack()">go back</button>
+    </div>
+</div>
